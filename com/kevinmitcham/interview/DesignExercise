@@ -1,0 +1,21 @@
+Design a Paid Ad System for a Search Site
+
+parts include:
+* update to consumer UI to display ads
+* ad storage
+* ad matching system
+* ad purchase system (including targets, by subject or demographic)
+* ad login system
+
+* update to consumer UI to display ads
+	dependent on current UI implementation; different page regions, etc.
+* ad storage
+	needs to be very responsive; no delays.  
+* ad matching system
+	needs to be very responsive; no delays.  NoSQL, etc  
+	purchased keywords- sharded, relatively easy
+	'related' keywords need to define related.  Can build map over time (search terms-> words in clicked page)  
+* ad purchase system (including targets, by subject or demographic)
+	selling by keyword is easy; demographic depends on what data we have on user.
+* ad login system
+	generic.
